@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>MonthView</servlet-name>
+		<servlet-class>schedule.MonthView4</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MonthView</servlet-name>
+		<url-pattern>/MonthView</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NewSchedule</servlet-name>
+		<servlet-class>schedule.NewSchedule2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>NewSchedule</servlet-name>
+		<url-pattern>/NewSchedule</url-pattern>
+	</servlet-mapping>
+</web-app>
